@@ -5,7 +5,7 @@ import ResumeBox from "./ResumeBox";
 import EducationBox from "./EducationBox";
 import DarkMode from "./../_component/DarkMode";
 
-export const RESUME_URL = "https://drive.google.com/file/d/1zpx7dTi8qLrxw55ObP3ekJLP6D_BmA-P";
+export const RESUME_URL = "https://drive.google.com/file/d/1qhMynI0SnLZjQpyCk_Be6c3o8aXdj0Vy";
 
 export default function Resume() {
     const experiences = [
