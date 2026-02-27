@@ -57,7 +57,7 @@ export default function Home() {
                         >
                             <FaGithub size={20} />
                         </a>
-                        <a href="/contact" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue">
+                        <a target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue">
                             <RiContactsFill size={20} />
                         </a>
                     </div>
