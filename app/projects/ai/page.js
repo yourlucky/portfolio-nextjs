@@ -70,7 +70,7 @@ export default function AiProject() {
                 </>
             ),
             role: "Hobby",
-            youtubeLink: ["https://www.youtube.com/embed/_6qmTGQIzXA"],
+            youtubeLink: ["https://www.youtube.com/embed/_6qmTGQIzXA", "https://www.youtube.com/embed/7tV5KoYnHwk"],
             content: (
                 <>
                     Explored the integration of hardware and cloud software through a custom IoT monitoring system. I
