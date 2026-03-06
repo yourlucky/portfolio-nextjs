@@ -46,8 +46,7 @@ export default function Fullstack() {
             image: "/neo2x.png",
             content: (
                 <>
-                    I developed a professional web presence for a legal firm using the Wix platform, focusing on
-                    creating an intuitive UI/UX for legal clients. The project included integrating essential business
+                    I developed a professional web presence for a legal firm using. The project included integrating essential business
                     features such as a blog and automated email systems. Additionally, I implemented SEO strategies to
                     improve organic search visibility and drive client acquisition, demonstrating my ability to deliver
                     functional, business-oriented web solutions.
