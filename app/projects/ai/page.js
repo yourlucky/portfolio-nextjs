@@ -15,7 +15,7 @@ export default function AiProject() {
             addContent: (
                 <>
                     <div>Development: LangGraph, TypeScript, Node.js</div>
-                    <div>AI Models: Claude 3.5 Sonnet, GPT-4o </div>
+                    <div>AI Models: OpenAI GPT, Anthropic Claude, Google Gemini </div>
                     <div>Infrastructure :AWS Lambda (Serverless), MongoDB </div>
                 </>
             ),
