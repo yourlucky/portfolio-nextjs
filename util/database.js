@@ -16,5 +16,8 @@ if (process.env.NODE_ENV === "development") {
   connectDB = global._mongo;
 } else {
   connectDB = new MongoClient(url).connect();
+  // 빌드 단계에서 모듈만 로드될 때 미접속 클러스터로 인한 unhandled rejection 방지
+  // (실제 사용처의 await에는 원래 에러가 그대로 전달됨)
+  connectDB.catch(() => {});
 }
 export { connectDB };
