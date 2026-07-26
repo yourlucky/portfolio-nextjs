@@ -38,3 +38,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# R 콘솔 히스토리 (실수로 생성되는 파일)
+.Rhistory
