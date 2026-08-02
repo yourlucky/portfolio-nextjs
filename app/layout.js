@@ -4,6 +4,7 @@ import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {Inter} from "next/font/google";
 import ThemeProvider from "./ThemeProvider";
 import ProjectsDropdown from "./ProjectsDropdown";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({children}) {
                         </div>
                     </div>
                     {children}
+                    <SpeedInsights />
 
                     <div className="flex justify-between items-end px-4 dark:bg-background-dark dark:text-foreground-dark sm:px-6 pb-5 h-24">
                         {/* xs 이하에서 숨기기 */}
