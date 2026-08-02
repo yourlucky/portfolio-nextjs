@@ -3,7 +3,6 @@
 import React from "react";
 import Link from "next/link";
 import {FaLinkedin, FaGithub} from "react-icons/fa";
-import {RiContactsFill} from "react-icons/ri";
 import Image from "next/image";
 import DarkMode from "./_component/DarkMode";
 import {RESUME_URL} from "./resume/page";
@@ -56,9 +55,6 @@ export default function Home() {
                             className="hover:text-accent-blue"
                         >
                             <FaGithub size={20} />
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue">
-                            <RiContactsFill size={20} />
                         </a>
                     </div>
                 </div>
